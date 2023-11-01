@@ -1,5 +1,6 @@
 import streamlit as st
 import cv2
+
 # Streamlit app title
 st.title("First Name Display App")
 

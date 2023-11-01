@@ -1,1 +1,1 @@
-streamlit-opencv
+opencv-python

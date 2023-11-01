@@ -1,6 +1,10 @@
 import streamlit as st
 import cv2
 
+# Set an environment variable for OpenCV to run in headless mode
+import os
+os.environ["OPENCV_VIDEOIO_PRIORITY_MSMF"] = "0"
+
 # Streamlit app title
 st.title("First Name Display App")
 

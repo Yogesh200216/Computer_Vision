@@ -1,6 +1,7 @@
 import cv2
 import numpy as np
 import streamlit as st
+import streamlit_opencv
 
 # Define the Streamlit app
 st.title('Image Enhancement')
